@@ -2,9 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+
 public class ChangeScene : MonoBehaviour
 {
-    public void MoveToScene(int Intro)
+    public void LoadScene(string Intro)
     {
         SceneManager.LoadScene(Intro);
     }
